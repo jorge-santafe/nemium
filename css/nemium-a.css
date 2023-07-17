@@ -1,0 +1,21 @@
+:root{
+    --black:#000000;
+    --white:#FFFFFF;
+    --gray10:#808080;
+    --gray20:#616161;
+    --gray30:#424242;
+    --gray40:#212121;
+    --baseFont:Roboto;
+    --headline1: normal 3.75rem/normal var(--baseFont);
+    --headline2: normal 2rem/ normal var(--baseFont);
+    --headline3: normal 1.5rem/normal var(--baseFont);
+    --headline4: normal 0.875rem/normal var(--baseFont);
+    --headline4Bold: bold 0.875rem/1.5rem var(--baseFont);
+    --md:normal 1rem/1.5rem var(--baseFont);
+    --sm:normal 0.875rem/1.5rem var(--baseFont);
+}
+body{
+    font: var(--md);
+    color:var(--gray30) ;
+    margin: 0;
+}
